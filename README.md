@@ -69,7 +69,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Start the containers: `docker compose up -d`
 - Rebuild and start the containers: `docker compose up -d --build`
 - Stop the containers: `docker compose down`
-- Access bash inside the container: `docker compose exec l11dev-app bash`
+- Access bash inside the container: `docker compose exec laravel-chat-app bash`
 - Exit bash inside the container: `exit`
 
 # Backend
