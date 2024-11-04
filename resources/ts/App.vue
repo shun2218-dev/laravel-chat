@@ -1,5 +1,5 @@
 <template>
-    <h1>Hello world!</h1>
+    <h1 class="title">Hello world!</h1>
     <button @click="increase">increase</button>
     <span>{{ counter }}</span>
 </template>
@@ -13,4 +13,10 @@ const increase = () => {
     counter.value = counter.value + 1
 }
 </script>
+
+<style lang="scss" scoped>
+.title {
+    color: red;
+}
+</style>
 
