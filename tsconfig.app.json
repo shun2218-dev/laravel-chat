@@ -25,5 +25,5 @@
       "noFallthroughCasesInSwitch": true,
       "noUncheckedSideEffectImports": true
     },
-    "include": ["resources//**/*.ts", "resources//**/*.tsx", "resources//**/*.vue", "resources/**/*.d.ts", "resources/ts/ziggy.ts"]
+    "include": ["resources//**/*.ts", "resources//**/*.tsx", "resources//**/*.vue", "resources/**/*.d.ts"]
   }
