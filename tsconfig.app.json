@@ -6,6 +6,9 @@
       "module": "ESNext",
       "lib": ["ES2020", "DOM", "DOM.Iterable"],
       "skipLibCheck": true,
+      "paths": {
+        "ziggy-js": ["./vendor/tightenco/ziggy"]
+      },
   
       /* Bundler mode */
       "moduleResolution": "Bundler",
@@ -22,5 +25,5 @@
       "noFallthroughCasesInSwitch": true,
       "noUncheckedSideEffectImports": true
     },
-    "include": ["resources//**/*.ts", "resources//**/*.tsx", "resources//**/*.vue", "resources/**/*.d.ts"]
+    "include": ["resources//**/*.ts", "resources//**/*.tsx", "resources//**/*.vue", "resources/**/*.d.ts", "resources/ts/ziggy.ts"]
   }

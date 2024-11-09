@@ -19,7 +19,7 @@ RUN docker-php-ext-install bcmath
 RUN docker-php-ext-install pdo_mysql mysqli exif
 RUN cd /usr/bin && curl -s http://getcomposer.org/installer | php && ln -s /usr/bin/composer.phar /usr/bin/composer
 
-ENV NODE_VERSION=20.15.0
+ENV NODE_VERSION=22.11.0
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ENV NVM_DIR=/root/.nvm
 RUN . "$NVM_DIR/nvm.sh" && nvm install ${NODE_VERSION}
